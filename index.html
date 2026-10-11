@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Imafe Kennedy Oisamoren</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/home.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <!-- SUBSCRIBE SECTION -->
+
+    <section class="subscribe">
+      <div class="subscribe-text">
+        <h2>Subscribe</h2>
+        <p>To receive our weekly newsletter</p>
+      </div>
+
+      <form
+        class="subscribe-form"
+        name="newsletter"
+        method="POST"
+        action="/thank-you.html"
+        data-netlify="true"
+      >
+        <input type="hidden" name="form-name" value="newsletter" />
+
+        <input type="email" name="email" placeholder="Email Address" required />
+
+        <button type="submit">SIGN UP</button>
+      </form>
+    </section>
+
+    <!-- NAVIGATION -->
+
+    <nav class="navbar">
+      <div class="nav-left">
+        <a href="index.html" class="active">Home</a>
+        <a href="about.html">About</a>
+        <a href="#">Projects</a>
+      </div>
+
+      <div class="logo">Imafe Kennedy Oisamoren</div>
+
+      <div class="nav-right">
+        <a href="#">Learning Hub</a>
+        <a href="https://github.com/digitaltemple07">GitHub</a>
+        <a href="#">Connect</a>
+      </div>
+
+      <div class="mobile-menu" id="mobileMenu">
+        <div class="mobile-menu-header">
+          <div class="mobile-menu-name">Imafe Kennedy Oisamoren</div>
+
+          <button class="menu-close" id="menuClose" aria-label="Close menu">
+            ×
+          </button>
+        </div>
+
+        <nav class="mobile-menu-links">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="#">Projects</a>
+          <a href="#">Learning Hub</a>
+          <a href="https://github.com/digitaltemple07">GitHub</a>
+          <a href="#">Connect</a>
+        </nav>
+      </div>
+
+      <!-- Hamburger Menu -->
+      <button class="menu-toggle" aria-label="Open navigation menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </nav>
+
+    <!-- HERO -->
+    <main>
+      <section class="hero">
+        <div class="hero-content">
+          <h1>Imafe Kennedy Oisamoren</h1>
+
+          <div class="statistics">
+            <div class="stat">
+              <h2 class="counter" data-target="HTML">H</h2>
+              <p>LEARNING</p>
+            </div>
+
+            <div class="stat">
+              <h2 class="counter" data-target="CSS">C</h2>
+              <p>PRACTISING</p>
+            </div>
+
+            <div class="stat">
+              <h2 class="counter" data-target="Git">G</h2>
+              <p>VERSION CONTROL</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER SUBSCRIBE SECTION -->
+
+    <section class="footer-subscribe">
+      <div class="footer-subscribe-text">
+        <h2>Subscribe</h2>
+        <p>Enter your email below for the newsletter.</p>
+      </div>
+
+      <form
+        class="footer-subscribe-form"
+        name="newsletter-footer"
+        method="POST"
+        action="/thank-you.html"
+        data-netlify="true"
+      >
+        <input type="email" name="email" placeholder="Email Address" required />
+
+        <button type="submit">SIGN UP</button>
+      </form>
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer class="footer">
+      <div class="footer-left">
+        <h2>Imafe Kennedy Oisamoren</h2>
+
+        <div class="social-links">
+          <a href="#" aria-label="YouTube">
+            <i class="fa-brands fa-youtube"></i>
+          </a>
+
+          <a href="#" aria-label="Instagram">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+
+          <a href="#" aria-label="Facebook">
+            <i class="fa-brands fa-facebook-f"></i>
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/kennedy-imafe-5a475b376?utm_source=share_via&utm_content=profile&utm_medium=member_android](https://www.linkedin.com/in/kennedy-imafe-5a475b376?utm_source=share_via&utm_content=profile&utm_medium=member_android)"
+            aria-label="LinkedIn"
+          >
+            <i class="fa-brands fa-linkedin-in"></i>
+          </a>
+        </div>
+        <a class="footer-email" href="mailto:ddigitaltemple@gmail.com">
+          ddigitaltemple@gmail.com
+        </a>
+      </div>
+
+      <div class="footer-links">
+        <div>
+          <a href="about.html">HOME</a>
+          <a href="about.html">ABOUT</a>
+          <a href="#">PROJECTS</a>
+        </div>
+
+        <div>
+          <a href="#">LEARNING HUB</a>
+          <a href="https://github.com/digitaltemple07">GITHUB</a>
+          <a href="#">CONNECT</a>
+        </div>
+      </div>
+
+      <p class="copyright">© 2026</p>
+    </footer>
+
+    <script src="js/home.js"></script>
+    <script src="js/menu.js"></script>
+  </body>
+</html>
