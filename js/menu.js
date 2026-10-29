@@ -6,14 +6,14 @@ const menuClose = document.getElementById("menuClose");
 menuToggle.addEventListener("click", function () {
   mobileMenu.classList.add("active");
 
-  document.body.style.overflow = "hidden";
+  // document.body.style.overflow = "hidden";
 });
 
 // Close menu
 menuClose.addEventListener("click", function () {
   mobileMenu.classList.remove("active");
 
-  document.body.style.overflow = "";
+  // document.body.style.overflow = "";
 });
 
 // Close menu when a navigation link is clicked

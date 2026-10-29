@@ -17,20 +17,20 @@ body {
 ======================================== */
 
 .hero {
-  min-height: 600px;
+  min-height: 500px;
 
   width: 100%;
 
   aspect-ratio: 16 / 9;
 
-  background-image: url("../../Assets/images/hero-picture.png");
+  background-image: url("../Assets/images/hero-picture.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 
   position: relative;
 
-  color: white;
+  color: rgba(220, 220, 220, 0.808);
 
   display: flex;
   align-items: center;
@@ -61,11 +61,13 @@ body {
 
 /* HERO NAME */
 
-.hero-content > h1 {
-  font-size: 30px;
-  font-weight: 650;
-
-  margin-bottom: 60px;
+.hero-content h1 {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 30px;
+  filter: brightness(2);
+  opacity: 40%;
+  text-align: center;
 }
 
 /* STATISTICS */
@@ -98,7 +100,7 @@ body {
   line-height: 1.5;
 }
 
-/* /* ========================
+/* ========================
    MOBILE RESPONSIVENESS 
 ======================== */
 
